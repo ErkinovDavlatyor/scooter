@@ -1,0 +1,66 @@
+.header{
+    background-color: #fff;
+    padding: 22px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .header__menu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .menu__logo{
+                font-size: 30px;
+                font-weight: bold;
+                color: #495567;
+                margin-right: 58px;
+            }
+            .menu__navbar{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .navbar-item{
+                    list-style: none;
+                    .navbar-item__link{
+                        text-decoration: none;
+                        margin-right: 32px;
+                        color: #939CAA;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 15px;
+                        line-height: 25px;
+                        &:hover{
+                            color: #FCB72B;
+                            .menu__btn{
+                                width: 180px;
+                                height: 53px;
+                                background-color: #FCB72B;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-decoration: none;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 15px;
+                                line-height: 25px;
+                                color: #FFFFFF;
+                                border: 3px solid transparent;
+                                transition: 0.5s ease;
+                                &:hover{
+                                    border: 3px solid #FCB72B;
+                                    background-color: transparent;
+                                    color: #FCB72B;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
